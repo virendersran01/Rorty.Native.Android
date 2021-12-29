@@ -79,6 +79,7 @@ class AndroidCommonLibrary : Plugin<Project> {
 
                 // Adds required dependencies for all modules.
                 project.dependencies.apply {
+                    add("implementation", Deps.AndroidX.AppCompat)
                     add("implementation", Deps.AndroidX.CoreKtx)
                     add("implementation", Deps.Coroutine.Core)
                     add("implementation", Deps.Coroutine.Android)

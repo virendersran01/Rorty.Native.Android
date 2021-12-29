@@ -14,6 +14,10 @@ gradlePlugin {
             id = "AndroidApp"
             implementationClass = "commons.AndroidApp"
         }
+        register("AndroidCommonLibrary") {
+            id = "AndroidCommonLibrary"
+            implementationClass = "commons.AndroidCommonLibrary"
+        }
     }
 }
 
