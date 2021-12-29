@@ -8,6 +8,15 @@ repositories {
     gradlePluginPortal()
 }
 
+gradlePlugin {
+    plugins {
+        register("AndroidApp") {
+            id = "AndroidApp"
+            implementationClass = "commons.AndroidApp"
+        }
+    }
+}
+
 object Versions {
     const val GRADLE = "7.1.0-beta05"
     const val KOTLIN = "1.6.10"
