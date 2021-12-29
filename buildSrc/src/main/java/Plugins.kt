@@ -10,7 +10,7 @@ object Plugins {
     const val FirebasePerf = "com.google.firebase.firebase-perf"
 
     const val AndroidApp = "AndroidApp"
-    const val AndroidCommonLibrary = "androidCommonLibrary"
+    const val AndroidCommonLibrary = "AndroidCommonLibrary"
     const val VersionCheck = "plugins.version-check"
     const val CodeQuality = "plugins.code-quality"
     const val GitHooks = "plugins.git-hooks"
