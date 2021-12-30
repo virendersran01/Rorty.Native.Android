@@ -16,7 +16,7 @@ dependencyResolutionManagement {
         maven("https://plugins.gradle.org/m2/")
     }
 }
-rootProject.name = "Rorty"
+rootProject.name = "RortyNative"
 include(":app")
 include(":data")
 include(":domain")
